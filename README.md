@@ -9,6 +9,12 @@ This is a React application built using JavaScript and React.js. It serves as a 
 
  -- Sorting Functionality: Users can sort the movie list by either release year or episode number using the SortBy component. 
 
+
+ ## Here are the steps for someone else to use your React MovieApp code from GitHub:
+
+### 1. Clone the Repository:
+Open a terminal and navigate to the directory where you want to clone the repository. Use the following command to clone the repository to your local machine.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
