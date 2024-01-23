@@ -1,5 +1,13 @@
 https://github.com/rohitraj232/Movies-App/assets/57895889/af4d6aa6-ad98-430e-b184-2bbf8afa9a1e
 
+## Description
+This is a React application built using JavaScript and React.js. It serves as a movie information viewer with the functionality of searching and sorting based on the movie's release year and episode. Here's a short description of its key features:
+
+ -- Fetching Movie Data: The component fetches movie data from the Star Wars API (SWAPI) upon mounting.
+
+ -- Search Functionality: Users can search for movies by entering a query in the Search component. The movie list updates dynamically based on the search query.
+
+ -- Sorting Functionality: Users can sort the movie list by either release year or episode number using the SortBy component. 
 
 # Getting Started with Create React App
 
