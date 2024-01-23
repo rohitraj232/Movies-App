@@ -1,0 +1,49 @@
+/* Styles for the dropdown container */
+.dropdown {
+    height: 10vh;
+    background-color: aquamarine;
+    position: relative;
+    z-index: 1; /* Ensuring the dropdown appears above other elements */
+}
+
+/* Styles for the controls within the dropdown */
+.dropdown-controls {
+    padding: 10px;
+}
+
+/* Styles for the sort by button */
+.sort-by-btn {
+    padding: 1.5vh 2.5vh;
+    font-weight: 600;
+}
+
+/* Styles for the input box in the navbar */
+.navbar-input-box {
+    outline: none;
+    margin: 0px 10px;
+    padding: 1.5vh 2.5vh;
+    width: 80vw; /* Adjusting the width of the input box */
+}
+
+/* Styles for the dropdown content */
+.dropdown-content {
+    margin: 10px;
+    padding: 10px;
+    width: 10vw; /* Adjusting the width of the dropdown content */
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; /* Adding a subtle box shadow for depth */
+    background-color: #ebdede;
+}
+
+/* Styles for the header within the dropdown content */
+.dropdown-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styles for the individual options within the dropdown content */
+.dropdown-option {
+    cursor: pointer;
+}

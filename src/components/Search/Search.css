@@ -1,0 +1,7 @@
+/* Styling for the navbar input section */
+.navbar-input-box {
+    outline: none;
+    margin: 0px 10px;
+    padding: 1.5vh 2.5vh;
+    width: 80vw;
+}

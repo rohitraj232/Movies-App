@@ -1,0 +1,64 @@
+/* Styling for the nav section */
+.nav {
+    background-color: aquamarine;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the movie details section */
+.movie-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Styling for the episode list container */
+  .episode-list-container {
+    border-right: 1px solid black; /* Adding a border on the right side */
+    width: 50%; /* Taking up 50% of the container */
+    flex: 1; /* Flex property for responsiveness */
+  }
+  
+  /* Styling for each episode list item */
+  .episode-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Styling for the sub-section of the episode list */
+  .sub-episode-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Styling for common data in the episode list */
+  .list-data {
+    padding: 5px 15px; /* Adding padding to list data */
+  }
+  
+  /* Styling for the episode details container */
+  .episode-details-container {
+    width: 50%; /* Taking up 50% of the container */
+    flex: 1; /* Flex property for responsiveness */
+  }
+  
+  /* Styling for the episode details */
+  .episode-details {
+    margin: 2rem; /* Adding margin for spacing */
+  }
+  
+  /* Media query for responsiveness on smaller screens */
+  @media (max-width: 768px) {
+    .movie-details {
+      flex-direction: column; /* Stack items vertically for smaller screens */
+    }
+  
+    /* Adjusting width for episode list and details containers on smaller screens */
+    .episode-list-container,
+    .episode-details-container {
+      width: 100%; /* Take full width on smaller screens */
+    }
+  }
+  
